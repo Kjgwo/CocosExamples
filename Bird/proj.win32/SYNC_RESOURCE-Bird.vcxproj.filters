@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\CMakeFiles\e66013461890c04f89558625f628cbcd\SYNC_RESOURCE-Bird.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\Bird\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\CMakeFiles\SYNC_RESOURCE-Bird" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8D4C303A-E40A-3C4E-83FF-0E6DF3865099}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

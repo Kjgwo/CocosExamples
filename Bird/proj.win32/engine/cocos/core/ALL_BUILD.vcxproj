@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1DD4F1E0-136C-30F6-86CE-C3679BCF15C0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Bird/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/201710911/Documents/CocosExamples/Bird -BC:/Users/201710911/Documents/CocosExamples/Bird/proj.win32 --check-stamp-file C:/Users/201710911/Documents/CocosExamples/Bird/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\base\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\math\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\network\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Bird/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/201710911/Documents/CocosExamples/Bird -BC:/Users/201710911/Documents/CocosExamples/Bird/proj.win32 --check-stamp-file C:/Users/201710911/Documents/CocosExamples/Bird/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\base\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\math\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\network\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Bird/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/201710911/Documents/CocosExamples/Bird -BC:/Users/201710911/Documents/CocosExamples/Bird/proj.win32 --check-stamp-file C:/Users/201710911/Documents/CocosExamples/Bird/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\base\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\math\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\network\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Bird/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/201710911/Documents/CocosExamples/Bird -BC:/Users/201710911/Documents/CocosExamples/Bird/proj.win32 --check-stamp-file C:/Users/201710911/Documents/CocosExamples/Bird/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\base\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\math\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\network\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\201710911\Documents\CocosExamples\Bird\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{D1340C24-A964-3BB6-AB45-324FFBBCDE69}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{ADC834A2-5C3D-3E4C-84E9-79EF7459F98D}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{A5FD765E-6578-32EA-9EE5-8EA159031EFF}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{C8768E5A-184C-3520-85ED-A647A407D54F}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{DB7D39B7-6356-38EF-849D-BB9E7F5C55AC}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{200B2FED-738C-38C8-B28B-A4735E06B794}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{6A2F9144-A3A3-37AC-B4E8-45D6999D0AFE}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{9CBBBC21-6EDF-3968-8C08-0FECE5AD6318}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{DD60C459-55C0-3087-9205-C90984B69CBB}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{2C4D1F60-7792-345F-9DB8-3C462F68C769}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{4EBE3DF4-8BD2-3DBB-B5EF-58F6BB79A572}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{1C1AD7EB-35C8-354F-9C9E-D139E669E290}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Bird\proj.win32\engine\external\external.vcxproj">
+      <Project>{7BB5DE6D-2DCF-3048-B197-0F8D92EBF735}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
