@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\SoccerBall\proj.win32\CMakeFiles\6e6ef833658bdbda665b0e5cb7ba958f\SYNC_RESOURCE-SoccerBall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\SoccerBall\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\201710911\Documents\CocosExamples\SoccerBall\proj.win32\CMakeFiles\SYNC_RESOURCE-SoccerBall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7345EDD2-46A8-3857-9482-6A31129B5EED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

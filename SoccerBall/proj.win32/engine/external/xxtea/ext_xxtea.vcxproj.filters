@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\201710911\Documents\CocosExamples\SoccerBall\cocos2d\external\xxtea\xxtea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\SoccerBall\cocos2d\external\xxtea\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5F299170-3AED-3450-AB0D-1D8B656924AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
