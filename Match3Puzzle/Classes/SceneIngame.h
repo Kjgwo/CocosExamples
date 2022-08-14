@@ -22,6 +22,17 @@ private:
 
 	Vec2 convertGameCoordToBlockCoord(Vec2 gameCoord);
 	Vec2 convertBlockCoordToGameCoord(Vec2 blockCoord);
+
+	// 아래에서부터 찾아 올라가면서 비어있는 블록을 찾고
+	// -1 이 리턴이 되면 비어있는 블록이 없다는 뜻이다.
+	int findEmptyBlockYIndex(int x, int  y);
+
+	// y 위치부터 찾아 올라가면서 비어있지 않은 블록을 찾고
+	// -1이 리턴이 되면 비어있지 않은 블록이 없다는 뜻이다
+	int findFilledBlockYIndex(int x, int y);
+
+	// 블록을 떨어뜨리는 함수
+	void dropBlocks(int x);
 public:
 	static SceneIngame* create();
 	virtual bool init() override;

@@ -3,6 +3,8 @@
 
 #include "stdafx.h"
 
+
+
 enum class GameState {
 	PLAYING, PAUSED, WIN, LOSE
 };
@@ -13,5 +15,5 @@ enum class GameState {
 #define BLOCK_WIDTH 80
 #define BLOCK_HEIGHT 80
 
-
+#define SWAP(TYPE, A, B){TYPE t = A; A = B; B = t; }
 #endif
