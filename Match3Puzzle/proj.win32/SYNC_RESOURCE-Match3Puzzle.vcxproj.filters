@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\CMakeFiles\ab249b4439e4b2abc50ae20d26ffe3a7\SYNC_RESOURCE-Match3Puzzle.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\CMakeFiles\SYNC_RESOURCE-Match3Puzzle" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0E11360D-4A58-3B00-8A75-565186972F4B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

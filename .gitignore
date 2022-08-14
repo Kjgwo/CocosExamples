@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# cocos2d
+Match3Puzzle/cocos2d
+Match3Puzzle/proj.win32/engine
+Match3Puzzle/proj.win32/ipch
