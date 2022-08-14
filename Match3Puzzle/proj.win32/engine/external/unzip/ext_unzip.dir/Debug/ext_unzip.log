@@ -1,0 +1,20 @@
+﻿  Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/cocos2d/external/unzip/CMakeLists.txt
+  ioapi.cpp
+C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\ioapi.cpp(108): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\ioapi.cpp(125): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\ioapi.cpp(144): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\ioapi.cpp(161): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\ioapi.cpp(166): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\ioapi.cpp(186): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\ioapi.cpp(191): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  unzip.cpp
+  ioapi_mem.cpp
+  Generating Code...
+  ext_unzip.vcxproj -> C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\lib\Debug\ext_unzip.lib

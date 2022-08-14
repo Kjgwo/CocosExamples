@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E563BB6B-D759-3224-8818-F4823534CF52}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>external</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">external.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">external</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">external.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">external</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">external.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">external</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">external.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">external</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LWS_WITH_LIBUV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\recast\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\tinyxml2\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxhash\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\xxtea\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\clipper\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\edtaa3func\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\ConvertUTF\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\poly2tri\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\md5\..;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\unzip\.;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\Box2D\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\chipmunk\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\bullet\include\bullet;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\jpeg\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\openssl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\uv\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\webp\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\websockets\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\curl\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\png\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\icon\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\glfw3\include\win32;C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/201710911/Documents/CocosExamples/Match3Puzzle -BC:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32 --check-stamp-file C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/201710911/Documents/CocosExamples/Match3Puzzle -BC:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32 --check-stamp-file C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/201710911/Documents/CocosExamples/Match3Puzzle -BC:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32 --check-stamp-file C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/201710911/Documents/CocosExamples/Match3Puzzle -BC:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32 --check-stamp-file C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\cocos2d\external\empty.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{7381C9E6-720B-347A-A781-3B77F3FFA894}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{E9AC09B1-EB21-3FE8-B350-B15FF6149A8C}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{C64B2049-72D6-31C0-8678-1F9A7DE81DB9}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{5BAA7974-D9BC-3A27-BBBF-9BEC7C8CEA56}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{6BF3D277-B9FD-3362-9BCA-9840872703CB}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{90229BF7-65AA-3A68-926D-5253DDB5AB3B}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{0B93ABA4-860C-3F31-932D-EC21CA1DAF4B}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{E7546B9E-765E-3E92-88CB-BF15DF2C08F8}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{71E80F93-0EE0-3C89-96AD-D85F929C1AC5}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{352E907E-D940-3FDC-BCB0-EEBBB6A30076}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{D9B3CC64-F923-3776-8FE5-A231EDAC8DE5}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
