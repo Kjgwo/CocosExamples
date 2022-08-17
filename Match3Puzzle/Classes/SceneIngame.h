@@ -13,6 +13,14 @@ private:
 	// blockSprite는 nullptr일 경우 비어있음
 	Sprite* blockSprite[BLOCK_VERTICAL][BLOCK_HORIZONTAL];
 
+	// 유니크 스택을 위한 자료구조
+	Vec2 judgeStack[128];
+	// 스택에 있는 자료의 수
+	int judgeStackCount = 0;
+	// 0이라면 스택에 자료가 없음, 그게 아니라면 자료가 없음
+	int judgeData[BLOCK_VERTICAL][BLOCK_HORIZONTAL];
+	// ==
+
 	void createBlock(int x, int y, int type);
 	int getBlockData(int x, int y);
 	void setBlockData(int x, int y, int type);
@@ -33,6 +41,13 @@ private:
 
 	// 블록을 떨어뜨리는 함수
 	void dropBlocks(int x);
+
+	void stackPush(Vec2 value);
+	Vec2 stackPop();
+	void stackEmpty();
+	bool stackFind(Vec2 value);
+	void judgeMatch(int x, int y);
+
 public:
 	static SceneIngame* create();
 	virtual bool init() override;
