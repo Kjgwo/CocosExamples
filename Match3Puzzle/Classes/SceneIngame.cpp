@@ -259,6 +259,35 @@ void SceneIngame::onEnter()
 
 void SceneIngame::initUI()
 {
+	addChild(ui = LayerIngameUI::create());
+	ui->setLocalZOrder(1);
+
+	ui->btnPause->addClickEventListener([=](Ref* r) {
+		if (state == GameState::PLAYING) {
+			ui->showPausePanel();
+			state = GameState::PAUSED;
+		}
+		
+	});
+
+	ui->btnResume->addClickEventListener([=](Ref* r) {
+		if (state == GameState::PAUSED) {
+			ui->hidePausePanel();
+			state = GameState::PLAYING;
+		}
+	});
+
+	ui->btnRestart->addClickEventListener([=](Ref* r) {
+		if (state == GameState::PAUSED) {
+			//TODO: 게임 재시작
+		}
+	});
+
+	ui->btnHome->addClickEventListener([=](Ref* r) {
+		if (state == GameState::PAUSED) {
+			//TODO: 게임 일시정지
+		}
+	});
 }
 
 void SceneIngame::initGame()

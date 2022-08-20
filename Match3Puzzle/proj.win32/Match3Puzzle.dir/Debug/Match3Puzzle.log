@@ -8,8 +8,8 @@
 ..\Classes\SceneIngame.cpp(198): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 ..\Classes\SceneIngame.cpp(214): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 ..\Classes\SceneIngame.cpp(235): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-..\Classes\SceneIngame.cpp(288): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-..\Classes\SceneIngame.cpp(302): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-..\Classes\SceneIngame.cpp(305): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+..\Classes\SceneIngame.cpp(317): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+..\Classes\SceneIngame.cpp(331): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+..\Classes\SceneIngame.cpp(334): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Match3Puzzle.vcxproj -> C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.win32\bin\Match3Puzzle\Debug\Match3Puzzle.exe
   Match3Puzzle.vcxproj -> C:/Users/201710911/Documents/CocosExamples/Match3Puzzle/proj.win32/bin/Match3Puzzle/Debug/Match3Puzzle.pdb (Full PDB)
