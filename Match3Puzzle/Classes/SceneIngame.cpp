@@ -285,6 +285,7 @@ void SceneIngame::initUI()
 
 	ui->btnRestart->addClickEventListener([=](Ref* r) {
 		if (state == GameState::PAUSED) {
+			Global::getInstance()->stopBackgroundMusic();
 			ui->hidePausePanel();
 			ui->setScore(0);
 			this->destroyGame();
