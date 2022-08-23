@@ -18,3 +18,7 @@
 
 ![image](https://user-images.githubusercontent.com/93897045/185735916-f35c6310-cd20-4478-99c9-f75301bcd0f4.png)
 ![image](https://user-images.githubusercontent.com/93897045/185735922-48c42908-1587-4cf5-a1c3-990bf99c4c6e.png)
+
+#3Match Puzzle (3)
+
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/93897045/186152697-b4fa1d40-6db0-4e91-8126-9b6c366fa75f.gif)
