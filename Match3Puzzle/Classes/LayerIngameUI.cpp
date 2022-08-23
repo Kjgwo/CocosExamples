@@ -13,7 +13,7 @@ bool LayerIngameUI::init()
 {
 	if (!Node::init()) return false;
 
-	addChild(lbScore = Label::createWithTTF("aasfdasd", "fonts/SDSamliphopangcheTTFBasic.ttf", 48.0f));
+	addChild(lbScore = Label::createWithTTF("aasfdasd", FONT_NAME, 48.0f));
 	lbScore->setAnchorPoint(Vec2::ANCHOR_MIDDLE_LEFT);
 	lbScore->setPosition(Vec2(30, 1280 - 180));
 
@@ -41,6 +41,12 @@ bool LayerIngameUI::init()
 	btnHome->setPosition(Vec2(PANEL_SIZE.width / 2 - SPACING, BUTTON_BOTTOM_SPACING));
 	btnRestart->setPosition(Vec2(PANEL_SIZE.width / 2 + SPACING, BUTTON_BOTTOM_SPACING));
 
+	Label* lbPaused = Label::createWithTTF("PAUSED!!!", FONT_NAME, 64.0f);
+	pausePanel->addChild(lbPaused);
+	lbPaused->setColor(Color3B(0, 0, 0));
+	lbPaused->setPosition(Vec2(PANEL_SIZE.width / 2, 300));
+
+
 	setScore(0);
 	hidePausePanel();
 
@@ -62,10 +68,26 @@ void LayerIngameUI::showPausePanel()
 {
 	pausePanel->setVisible(true);
 	dnCurtain->setVisible(true);
+
+	dnCurtain->setOpacity(0);
+	dnCurtain->runAction(FadeIn::create(0.125));
+
+	auto pos = pausePanel->getPosition();
+	pausePanel->setPosition(pos - Vec2(0, 1000));
+	pausePanel->runAction(EaseExponentialInOut::create(MoveTo::create(0.125f, pos)));
 }
 
 void LayerIngameUI::hidePausePanel()
 {
-	pausePanel->setVisible(false);
-	dnCurtain->setVisible(false);
+
+	auto pos = pausePanel->getPosition();
+	pausePanel->runAction(Sequence::create(
+		EaseExponentialInOut::create(MoveTo::create(0.25f, pos - Vec2(0, 1000))),
+		CallFunc::create([=]() {
+		    pausePanel->setPosition(pos);
+			pausePanel->setVisible(false);
+			dnCurtain->setVisible(false);
+	    }),
+		nullptr
+	));
 }

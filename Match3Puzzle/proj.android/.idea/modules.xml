@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proj.android.iml" filepath="$PROJECT_DIR$/.idea/modules/proj.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android.Match3Puzzle.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android.Match3Puzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android.Match3Puzzle.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android.Match3Puzzle.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android.Match3Puzzle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android.Match3Puzzle.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android.Match3Puzzle.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android.Match3Puzzle.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1362774003/proj.android.libcocos2dx.iml" filepath="$PROJECT_DIR$/.idea/modules/1362774003/proj.android.libcocos2dx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1362774003/proj.android.libcocos2dx.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1362774003/proj.android.libcocos2dx.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1362774003/proj.android.libcocos2dx.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1362774003/proj.android.libcocos2dx.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1362774003/proj.android.libcocos2dx.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1362774003/proj.android.libcocos2dx.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+                    Executable : C:\Users\201710911\AppData\Local\Android\Sdk\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HC:\Users\201710911\Documents\CocosExamples\Match3Puzzle
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=16
+-DANDROID_PLATFORM=android-16
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=C:\Users\201710911\AppData\Local\Android\Sdk\ndk\18.1.5063045
+-DCMAKE_ANDROID_NDK=C:\Users\201710911\AppData\Local\Android\Sdk\ndk\18.1.5063045
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\201710911\AppData\Local\Android\Sdk\ndk\18.1.5063045\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\201710911\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions -fsigned-char
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.android\app\build\intermediates\cxx\Debug\6a1v3tbt\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.android\app\build\intermediates\cxx\Debug\6a1v3tbt\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-BC:\Users\201710911\Documents\CocosExamples\Match3Puzzle\proj.android\app\.cxx\Debug\6a1v3tbt\x86
+-GNinja
+-DANDROID_STL=c++_static
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_ARM_NEON=TRUE
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

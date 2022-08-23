@@ -29,8 +29,8 @@ private:
 	void setBlockSprite(int x, int y, Sprite* s);
 	void destroyBlock(int x, int y);
 
-	Vec2 convertGameCoordToBlockCoord(Vec2 gameCoord);
-	Vec2 convertBlockCoordToGameCoord(Vec2 blockCoord);
+	Vec2 convertGameCoordToBlockCoord(const Vec2& gameCoord);
+	Vec2 convertBlockCoordToGameCoord(const Vec2& blockCoord);
 
 	// 아래에서부터 찾아 올라가면서 비어있는 블록을 찾고
 	// -1 이 리턴이 되면 비어있는 블록이 없다는 뜻이다.
@@ -43,10 +43,10 @@ private:
 	// 블록을 떨어뜨리는 함수
 	void dropBlocks(int x);
 
-	void stackPush(Vec2 value);
-	Vec2 stackPop();
+	void stackPush(const Vec2& value);
+	const Vec2& stackPop();
 	void stackEmpty();
-	bool stackFind(Vec2 value);
+	bool stackFind(const Vec2& value);
 	void judgeMatch(int x, int y);
 
 	LayerIngameUI* ui;
