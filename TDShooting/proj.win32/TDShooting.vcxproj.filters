@@ -16,6 +16,15 @@
     <ClCompile Include="..\Classes\SceneIngame.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Unit.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemyComponent.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\201710911\Documents\CocosExamples\TDShooting\Classes\AppDelegate.h">
@@ -55,6 +64,15 @@
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Environment.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Unit.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyComponent.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
   </ItemGroup>

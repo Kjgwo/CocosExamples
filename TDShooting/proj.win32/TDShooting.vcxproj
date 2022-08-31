@@ -792,17 +792,23 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\Bullet.h" />
+    <ClInclude Include="..\Classes\EnemyComponent.h" />
     <ClInclude Include="..\Classes\Environment.h" />
     <ClInclude Include="..\Classes\SceneIngame.h" />
     <ClInclude Include="..\Classes\stdafx.h" />
+    <ClInclude Include="..\Classes\Unit.h" />
     <ClInclude Include="C:\Users\201710911\Documents\CocosExamples\TDShooting\Classes\AppDelegate.h" />
     <ClInclude Include="C:\Users\201710911\Documents\CocosExamples\TDShooting\Classes\HelloWorldScene.h" />
     <ClInclude Include="C:\Users\201710911\Documents\CocosExamples\TDShooting\proj.win32\main.h" />
     <ClInclude Include="C:\Users\201710911\Documents\CocosExamples\TDShooting\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\Bullet.cpp" />
+    <ClCompile Include="..\Classes\EnemyComponent.cpp" />
     <ClCompile Include="..\Classes\SceneIngame.cpp" />
     <ClCompile Include="..\Classes\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\Classes\Unit.cpp" />
     <ClCompile Include="C:\Users\201710911\Documents\CocosExamples\TDShooting\Classes\AppDelegate.cpp" />
     <ClCompile Include="C:\Users\201710911\Documents\CocosExamples\TDShooting\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="C:\Users\201710911\Documents\CocosExamples\TDShooting\proj.win32\main.cpp" />

@@ -3,10 +3,11 @@
 
 
 #include "stdafx.h"
+#include "Unit.h"
 
 class SceneIngame : public Scene {
 private:
-	Node* player;
+	Unit* player;
 	bool up = false, down = false, left = false, right = false;
 	bool fire = false;
 
@@ -15,10 +16,12 @@ public:
 	virtual bool init() override;
 	virtual void onEnter() override;
 
+	Unit* getPlayer();
+
 	void onKeyPressed(EventKeyboard::KeyCode c, Event* e);
 	void onKeyReleased(EventKeyboard::KeyCode c, Event* e);
 
-
+	bool onContactBegin(PhysicsContact& contact);
 	void logic(float dt);
 
 };
