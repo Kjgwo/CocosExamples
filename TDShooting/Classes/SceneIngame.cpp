@@ -98,7 +98,7 @@ bool SceneIngame::onContactBegin(PhysicsContact & contact)
 
 	if (tagA == TAG_PLAYER && tagB == TAG_ENEMY) {
 		a->removeFromParent();
-		player = nullptr;
+		player = nullptr; 
 	}
 
 	if (tagB == TAG_PLAYER && tagA == TAG_ENEMY) {
