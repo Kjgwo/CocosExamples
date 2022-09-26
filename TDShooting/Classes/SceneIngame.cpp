@@ -134,6 +134,7 @@ void SceneIngame::logic(float dt)
 
 	player->setPosition(pos);
 
+
 	if (fire) {
 		auto bullet = Bullet::create(PLAYER_BULLET_MASK, TAG_PLAYER_BULLET);
 		bullet->setPosition(player->getPosition());
