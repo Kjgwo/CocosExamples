@@ -1,12 +1,5 @@
-﻿  Building Custom Rule C:/Users/201710911/Documents/CocosExamples/TDShooting/cocos2d/external/recast/CMakeLists.txt
-  DebugDraw.cpp
+﻿  DebugDraw.cpp
   DetourDebugDraw.cpp
-  DetourAlloc.cpp
-  DetourCommon.cpp
-  DetourNavMesh.cpp
-  DetourNavMeshBuilder.cpp
-  DetourNavMeshQuery.cpp
-  DetourNode.cpp
   DetourCrowd.cpp
   DetourLocalBoundary.cpp
   DetourObstacleAvoidance.cpp
@@ -16,6 +9,12 @@ C:\Users\201710911\Documents\CocosExamples\TDShooting\cocos2d\external\recast\De
   DetourProximityGrid.cpp
   DetourTileCache.cpp
   DetourTileCacheBuilder.cpp
+  DetourAlloc.cpp
+  DetourCommon.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
   Generating Code...
   fastlz.c
   ext_recast.vcxproj -> C:\Users\201710911\Documents\CocosExamples\TDShooting\proj.win32\lib\Debug\ext_recast.lib
