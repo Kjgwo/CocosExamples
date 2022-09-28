@@ -13,7 +13,7 @@ bool Unit::init(const Size & size, int bitmask, int tag)
 {
 	if (!Node::init()) return false;
 
-	auto body = PhysicsBody::createBox(size);
+	body = PhysicsBody::createBox(size);
 	body->setTag(tag);
 	body->setCollisionBitmask(0);
 	body->setContactTestBitmask(bitmask);
@@ -22,4 +22,9 @@ bool Unit::init(const Size & size, int bitmask, int tag)
 
 
 	return true;
+}
+
+PhysicsBody * Unit::getBody()
+{
+	return body;
 }

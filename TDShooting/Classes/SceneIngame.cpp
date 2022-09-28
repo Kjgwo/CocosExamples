@@ -45,10 +45,27 @@ void SceneIngame::onEnter()
 	addChild(player);
 
 
-	auto enemy = Unit::create(Size(75, 75), ENEMY_MASK, TAG_ENEMY);
-	enemy->addComponent(EnemyAttackRoutine::create(EnemyAttackType::NORMAL));
-	enemy->setPosition(Vec2(1280 / 2, 720 / 2 + 200));
-	addChild(enemy);
+	{
+		auto enemy = Unit::create(Size(75, 75), ENEMY_MASK, TAG_ENEMY);
+		enemy->addComponent(EnemyAttackRoutine::create(EnemyAttackType::NORMAL));
+		enemy->addComponent(EnemyMovementRoutine::create(EnemyMovementType::FROM_TOP));
+		enemy->setPosition(Vec2(1280 / 2, 720 / 2 + 200));
+		addChild(enemy);
+	}
+	{
+		auto enemy = Unit::create(Size(75, 75), ENEMY_MASK, TAG_ENEMY);
+		enemy->addComponent(EnemyAttackRoutine::create(EnemyAttackType::DOUBLE));
+		enemy->addComponent(EnemyMovementRoutine::create(EnemyMovementType::FROM_LEFT));
+		enemy->setPosition(Vec2(1280 / 2- 300, 720 / 2 + 200));
+		addChild(enemy);
+	}
+	{
+		auto enemy = Unit::create(Size(75, 75), ENEMY_MASK, TAG_ENEMY);
+		enemy->addComponent(EnemyAttackRoutine::create(EnemyAttackType::TRIPLE));
+		enemy->addComponent(EnemyMovementRoutine::create(EnemyMovementType::FROM_RIGHT));
+		enemy->setPosition(Vec2(1280 / 2 + 300, 720 / 2 + 200));
+		addChild(enemy);
+	}
 
 }
 

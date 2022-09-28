@@ -1,4 +1,9 @@
-﻿libbullet.lib(btAlignedAllocator.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+﻿  EnemyComponent.cpp
+..\Classes\EnemyComponent.cpp(81): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+..\Classes\EnemyComponent.cpp(114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+..\Classes\EnemyComponent.cpp(118): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+..\Classes\EnemyComponent.cpp(122): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+libbullet.lib(btAlignedAllocator.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
      Creating library C:/Users/201710911/Documents/CocosExamples/TDShooting/proj.win32/Debug/TDShooting.lib and object C:/Users/201710911/Documents/CocosExamples/TDShooting/proj.win32/Debug/TDShooting.exp
 LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
